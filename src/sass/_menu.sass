@@ -165,8 +165,15 @@
     font-size: 40px
 
 @media screen and (max-width: 640px)
+  .menu_active
+    min-height: 100vh
+    height: 100%
+    display: block
+    overflow-y: scroll
+
   .menu__content
     margin: 30px 20px
+    height: 75%
 
   .menu__footer
     flex-grow: 1

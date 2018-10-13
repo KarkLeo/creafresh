@@ -1,0 +1,83 @@
+<svg id="Group_2_copy_4" data-name="Group 2 copy 4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="122.97" height="142.438" viewBox="0 0 122.97 142.438">
+  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c142 79.160924, 2017/07/13-01:06:39        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""/>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?></metadata>
+<defs>
+    <style>
+      .cls-1 {
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        fill: #2addaa;
+      }
+
+      .cls-3, .cls-5 {
+        fill: #2adcaa;
+      }
+
+      .cls-3 {
+        fill-rule: evenodd;
+      }
+
+      .cls-4 {
+        filter: url(#filter-2);
+      }
+
+      .cls-6 {
+        filter: url(#filter-3);
+      }
+    </style>
+    <filter id="filter" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#2adcaa"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+    <filter id="filter-2" filterUnits="userSpaceOnUse">
+      <feFlood result="flood"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+    <filter id="filter-3" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#fff"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g class="cls-1">
+    <circle id="Ellipse_4_copy_10" data-name="Ellipse 4 copy 10" class="cls-2" cx="78.155" cy="95.578" r="12.315"/>
+    <path id="Ellipse_4_copy_10-2" data-name="Ellipse 4 copy 10" class="cls-3" d="M8353.73,160.25a26.838,26.838,0,1,1-26.88,26.837A26.855,26.855,0,0,1,8353.73,160.25Z" transform="translate(-8304.69 -159.156)"/>
+  </g>
+  <g id="Group_1_copy" data-name="Group 1 copy" class="cls-4">
+    <circle id="Ellipse_4_copy_10-3" data-name="Ellipse 4 copy 10" class="cls-2" cx="112.765" cy="132.266" r="10.205"/>
+    <circle id="Ellipse_4_copy_10-4" data-name="Ellipse 4 copy 10" class="cls-5" cx="22.25" cy="47.938" r="22.25"/>
+  </g>
+  <g id="Group_1_copy_2" data-name="Group 1 copy 2" class="cls-6">
+    <circle id="Ellipse_4_copy_10-5" data-name="Ellipse 4 copy 10" class="cls-5" cx="28.2" cy="20.672" r="20.8"/>
+  </g>
+</svg>

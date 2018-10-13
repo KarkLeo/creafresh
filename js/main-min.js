@@ -1,0 +1,1 @@
+"use strict";function menuOpen(){var e=document.querySelectorAll(".menu"),n=document.querySelectorAll(".menu__button_burger");n.length>0&&n.forEach(function(n){n.addEventListener("click",function(n){e.forEach(function(e){e.classList.toggle("menu_active")})})})}document.addEventListener("DOMContentLoaded",function(e){menuOpen()});

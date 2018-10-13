@@ -1,0 +1,36 @@
+.header
+  width: 100%
+  height: 100vh
+  display: flex
+  align-items: center
+  justify-content: center
+  overflow: hidden
+
+.header::before
+  content: 'Design'
+  display: block
+  position: absolute
+  left: -.062em //removed the margin of the em-square
+  top: 0
+  width: calc(100% + .062em)
+  height: 100%
+  text-align: center
+  line-height: 100vh
+  vertical-align: middle 
+  font-size: 900px
+  font-weight: bold
+  letter-spacing: .025em 
+  opacity: 0.05
+  z-index: -100
+  overflow: hidden
+
+
+@media screen and (max-width: 640px)
+  .header::before
+    font-size: 400px
+
+@media screen and (max-width: 320px)
+  .header::before
+    font-size: 300px
+    left: -.16em //removed the margin of the em-square
+    width: calc(100% + .16em)

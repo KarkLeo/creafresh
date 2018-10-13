@@ -1,0 +1,49 @@
+.footer
+  width: 100%
+  padding: 100px 50px
+  box-sizing: border-box
+  border-top: 1px solid #e9e9ea
+  display: flex
+  justify-content: space-between
+  align-items: center
+
+.footer__side:last-child
+  text-align: right
+
+.footer__contacts
+  font-size: 14px
+  line-height: 2em
+  letter-spacing: .025em
+  font-weight: 500
+  margin: 0
+
+.footer__link
+  text-decoration: none
+
+.footer__link:hover
+  text-decoration: underline
+
+.footer__link_instagram
+  color: $insta-color
+
+.footer__link_facebook
+  color: $facebook-color
+
+.footer__copyright
+  font-size: 12px
+  line-height: 2em
+  letter-spacing: .025em
+  font-weight: 500
+
+@media screen and (max-width: 640px)
+  .footer
+    flex-direction: column
+    text-align: center
+    padding: 50px
+
+  .footer__side:last-child
+    text-align: center
+    margin-top: 40px
+
+  .footer__link
+    padding: 0 10px

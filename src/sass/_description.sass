@@ -1,0 +1,46 @@
+.description
+  width: 50%
+  margin: 130px auto
+  text-align: center
+
+.description__text
+  font-size: 20px
+  line-height: 1.8em
+  letter-spacing: .025em
+  margin-bottom: 2.6em
+
+.description__button
+  display: inline-block
+  position: relative
+  font-size: 15px
+  height: 4em
+  line-height: 4em
+  color: #fff
+  text-decoration: none
+  outline: none
+  padding: 0 4em
+  background-color: $primary-color
+  border-radius: 2em
+  transition: all 300ms ease
+
+.description__button:hover
+  box-shadow: 0 -2em 4em -2em #000 inset;
+  
+@media screen and (max-width: 1280px)
+  .description
+    width: 75%
+
+@media screen and (max-width: 1024px)
+  .description
+    width: 85%
+
+@media screen and (max-width: 640px)
+  .description
+    width: 100%
+
+@media screen and (max-width: 320px)
+  .description
+    margin: 40px auto
+    
+  .description__text
+    font-size: 18px

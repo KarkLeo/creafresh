@@ -1,0 +1,44 @@
+.products__list 
+  padding: 0
+  margin: -100px -6px -6px
+  display: flex
+  flex-wrap: wrap
+
+.products__item
+  list-style: none;
+  width: calc(100% / 2 - 12px)
+  padding: 0
+  margin: 6px
+
+.products__item_tri
+  width: calc(100% / 3 - 12px)
+
+.products__link
+  outline: none
+  display: block
+  position: relative
+
+.products__link::before
+  content: ""
+  display: block
+  position: absolute
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+  background-color: #000
+  opacity: 0
+  transition: opacity 300ms ease
+
+.products__link:hover::before
+  opacity: .7
+  
+.products__image
+  width: 100%
+  height: auto
+  display: block
+
+@media screen and (max-width: 640px)
+  .products__item,
+  .products__item_tri
+    width: 100%

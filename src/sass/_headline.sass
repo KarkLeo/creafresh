@@ -1,0 +1,63 @@
+.headline
+  max-width: 1500px
+  width: 100%
+  padding: 0 50px
+  box-sizing: border-box
+  display: flex
+  align-items: center
+  justify-content: space-between
+
+.headline__image
+  width: 690px
+
+.headline__title
+  font-size: 72px
+  letter-spacing: .025em
+  font-weight: bold
+  margin: 0
+
+.headline__subtitle
+  font-size: 40px
+  letter-spacing: .025em
+  font-weight: normal
+  margin: 0
+
+@media screen and (max-width: 1280px)
+  .headline__image
+    width: 480px
+
+@media screen and (max-width: 1024px)
+  .headline__image
+    width: 350px
+
+  .headline__title
+    font-size: 50px
+  
+  .headline__subtitle
+    font-size: 30px
+    
+@media screen and (max-width: 640px)
+  .headline__image
+    display: none
+
+  .headline
+    text-align: center
+    position: relative
+    padding: 0 20px
+  
+  .headline::after
+    content: ''
+    display: block
+    position: absolute
+    width: 120px
+    height: 140px
+    top: -70px
+    left: 470px
+    background-image: url('/creafresh/img/svg/icons/headline.svg')
+    background-position: 50% 50%
+    background-repeat: no-repeat
+    background-size: contain
+
+@media screen and (max-width: 320px)  
+  .headline::after
+    left: 230px
